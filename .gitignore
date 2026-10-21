@@ -1,0 +1,5 @@
+.venv/
+**/subpasta/.venv/
+**/.venv/
+venv/
+**/venv/
