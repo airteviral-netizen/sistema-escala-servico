@@ -1,0 +1,15 @@
+SISTEMA DE ESCALA DE SERVICO
+
+COMO INICIAR
+1. Extraia todos os arquivos do ZIP para uma pasta.
+2. Mantenha main.py, database.py, funcoes.py, escalas.db e requirements.txt juntos.
+3. Dê dois cliques em INICIAR.bat.
+
+REGRAS DA ESCALA
+- Segunda a sexta: expediente, exceto no dia da folga compensatória.
+- A cada fim de semana, trabalham duas pessoas de cada turno em apenas um dia: sábado OU domingo.
+- No fim de semana seguinte, o outro par assume; quem trabalhou fica fora do revezamento daquele próximo fim de semana.
+- Quem trabalhou recebe uma folga compensatória na semana útil seguinte. Para manter o efetivo, as duas folgas do par são separadas: segunda e terça.
+
+IMPORTANTE
+O banco incluído preserva as pessoas cadastradas no arquivo enviado, mas remove as escalas antigas que seguiam a regra incorreta. Gere novamente a escala do mês desejado no botão GERAR ESCALA.

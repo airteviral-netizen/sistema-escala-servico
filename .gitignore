@@ -1,8 +1,43 @@
-.venv/
-**/subpasta/.venv/
-**/.venv/
-venv/
-**/venv/
-*.db
+# Python: cache e arquivos compilados
 __pycache__/
-**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# Configurações e segredos locais
+.env
+.env.*
+!.env.example
+
+# Banco de dados local (pode conter dados pessoais)
+escalas.db
+escalas.db-journal
+escalas.db-wal
+escalas.db-shm
+*.sqlite
+*.sqlite3
+
+# Relatórios e arquivos gerados localmente
+relatorios/
+*.log
+
+# Empacotamento e testes
+build/
+dist/
+.eggs/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editores e sistema operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
